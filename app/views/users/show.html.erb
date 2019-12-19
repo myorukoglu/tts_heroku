@@ -7,7 +7,7 @@
 
 <p>
   <strong>Team:</strong>
-  <%= @user.team_id %>
+    <%= image_tag @user.avatar.url if @user.avatar.url %>
 </p>
 
 <p>
